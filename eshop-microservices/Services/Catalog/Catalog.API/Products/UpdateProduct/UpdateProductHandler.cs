@@ -25,11 +25,11 @@ internal class UpdateProductCommandHandler
 {
     public async Task<UpdateProductResult> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
     {
-        //var product = await session.LoadAsync<Product>(cancellationToken);
-        var productId = command.id; // Giả sử bạn có `ProductId` là Guid trong command
+        //Console.WriteLine($"Product ID: {command.id}");
+        var productId = command.id;
         var product = await session.LoadAsync<Product>(productId, cancellationToken);
-        if (product is null)
-            throw new ProductNotFoundException(productId);
+        //if (product is null)
+        //    throw new ProductNotFoundException(productId);
         product.Name = command.Name;
         product.Category = command.Category;
         product.Description = command.Description;
