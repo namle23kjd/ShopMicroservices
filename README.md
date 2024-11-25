@@ -1,5 +1,4 @@
 # ShopMicroservices
-# ShopMicroservices
 
 ## Description
 **ShopMicroservices** is an e-commerce system built using a microservices architecture. This system enables stores to operate independently, scale easily, and maintain high performance when handling large user traffic.
@@ -48,7 +47,6 @@ Each service communicates through a message broker (e.g., RabbitMQ, Kafka) to en
 
 ## Setup Instructions
 1. Clone the repository:
-   ```bash
   [ShopMicroservices Repository](https://github.com/namle23kjd/ShopMicroservices)
 
 
