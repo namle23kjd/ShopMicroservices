@@ -49,5 +49,6 @@ Each service communicates through a message broker (e.g., RabbitMQ, Kafka) to en
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/namle23kjd/shop-microservices.git
+  [ShopMicroservices Repository](https://github.com/namle23kjd/ShopMicroservices)
+
 
